@@ -1,0 +1,56 @@
+/* CSS FOR MOBILE  */
+@media(max-width:768px) {
+    .container-1 {
+        padding-inline: 20px;
+    }
+
+    .container-2 {
+        padding-inline: 20px;
+    }
+    .card-heading{
+        margin-left: 0px;
+    }
+    .card-heading p{
+        font-size: 12px;
+    }
+    .card-heading h3{
+        font-size: 20px;
+    }
+    .card-1 img{
+        height: 160px;
+        object-fit: cover;
+    }
+    .col-2{
+        flex-wrap: wrap;
+    }
+
+    .col h2 {
+        font-size: 22px;
+    }
+    .features{
+        align-items: end;
+    }
+    .col-2 button{
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      .detail-img img {
+        border-radius: 20px;
+        width: 100%;
+    }
+}
+/* CSS FOR TABLETS  */
+@media(min-width:768px) and (max-width:1440px){
+    .container-2{
+        padding-inline: 40px;
+    }
+}
+
+/* CSS FOR LARGER DEVICES  */
+
+@media(max-width:1100px) {
+    .low-heading {
+        display: none;
+    }
+}
